@@ -1,0 +1,11 @@
+{
+  "fontFamily": "\"Dudu Calligraphy\", \"Faraco Hand\", FZMiaoWu",
+  "fontSize": "22px",
+  "lineHeight": "1.3",
+  "cursorWidth": "10px",
+  "cursorHeight": "20px",
+  "cursorTranslateY": "-5px",
+  "color": "#000000",
+  "backgroundColor": "#ffffff",
+  "backgroundImage": ""
+}
