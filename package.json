@@ -1,0 +1,63 @@
+{
+  "name": "Strange-term",
+  "version": "1.0.0",
+  "description": "Max and Chloe' Terminal",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:mac": "electron-builder --mac"
+  },
+  "keywords": [
+    "terminal",
+    "electron"
+  ],
+  "author": "Lruri",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.7.2",
+    "node-pty": "^1.0.0"
+  },
+  "build": {
+    "appId": "com.Strange.terminal",
+    "productName": "Strange Terminal",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "universal"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "universal"
+          ]
+        }
+      ],
+      "icon": "build/icon.icns",
+      "darkModeSupport": true,
+      "identity": null,
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "config.txt",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "build",
+      "output": "dist"
+    },
+    "extraResources": []
+  }
+}
