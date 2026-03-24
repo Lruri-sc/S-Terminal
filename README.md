@@ -8,7 +8,7 @@ A Terminal that support non-equisupporting fonts terminal
 - 🖼️ Background image support
 - 📋 Copy/paste support
 - 🌈 Full color support
-- 💾 User configuration in `~/Strange-term/`
+- 💾 User configuration in `~/chloe-term/`
 
 ## Installation
 ```bash
@@ -23,6 +23,6 @@ npm run dist:mac
 
 ## Configuration
 
-Configuration file: `~/Strange-term/config.txt`
+Configuration file: `~/chloe-term/config.txt`
 
 Edit and restart the app to apply changes.

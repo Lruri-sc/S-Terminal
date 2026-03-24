@@ -1,10 +1,10 @@
 {
-  "name": "Strange-term",
+  "name": "s-term",
   "version": "1.0.0",
-  "description": "Max and Chloe' Terminal",
+  "description": "S-term terminal emulator",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "ELECTRON_RUN_AS_NODE= electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "dist:mac": "electron-builder --mac"
@@ -24,8 +24,8 @@
     "node-pty": "^1.0.0"
   },
   "build": {
-    "appId": "com.Strange.terminal",
-    "productName": "Strange Terminal",
+    "appId": "com.s.term",
+    "productName": "S-term",
     "mac": {
       "category": "public.app-category.developer-tools",
       "target": [
@@ -50,7 +50,10 @@
     },
     "files": [
       "main.js",
+      "preload.js",
       "index.html",
+      "renderer.js",
+      "styles.css",
       "config.txt",
       "node_modules/**/*"
     ],
