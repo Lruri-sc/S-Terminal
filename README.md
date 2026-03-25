@@ -1,4 +1,4 @@
-# Max and Chloe's Terminal
+# Terminals that support non-equisupporting fonts
 
 A beautiful and customizable terminal emulator for macOS.
 
