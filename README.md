@@ -1,6 +1,6 @@
 # Terminals that support non-equisupporting fonts
 
-A beautiful and customizable terminal emulator for macOS.
+A Terminal that support non-equisupporting fonts terminal
 
 ## Features
 
