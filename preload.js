@@ -28,6 +28,7 @@ const convert = new Convert({
 
 contextBridge.exposeInMainWorld('terminalAPI', {
   sendKeystroke: (key) => ipcRenderer.send('terminal-keystroke', key),
+  forceExitTui: () => ipcRenderer.send('force-exit-tui'),
   resizeTerminal: (size) => ipcRenderer.send('resize-terminal', size),
   requestNewWindow: () => ipcRenderer.send('new-window'),
   ansiToHtml: (text) => convert.toHtml(text),

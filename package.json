@@ -42,7 +42,6 @@
           ]
         }
       ],
-      "icon": "build/icon.icns",
       "darkModeSupport": true,
       "identity": null,
       "hardenedRuntime": false,
@@ -54,7 +53,6 @@
       "index.html",
       "renderer.js",
       "styles.css",
-      "config.txt",
       "node_modules/**/*"
     ],
     "directories": {
