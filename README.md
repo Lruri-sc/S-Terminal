@@ -4,7 +4,7 @@ A Terminal that support non-equisupporting fonts terminal
 
 ## Features
 
-- 🎨 Fully customizable (fonts, colors, backgrounds)
+- 🎨 Fully customizable (fonts, colors, backgrounds).
 - 🖼️ Background image support
 - 📋 Copy/paste support
 - 🌈 Full color support
